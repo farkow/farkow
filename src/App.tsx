@@ -13,6 +13,7 @@ import {
 } from "./data/profile";
 
 export default function App() {
+  // <main className="flex min-h-screen flex-col items-center justify-center bg-white px-4 py-24 dark:bg-gray-900">
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SiteNavbar />
