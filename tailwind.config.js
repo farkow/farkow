@@ -1,4 +1,5 @@
 import flowbite from "flowbite/plugin";
+import flowbiteReact from "flowbite-react/plugin/tailwindcss";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -6,7 +7,8 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/flowbite/**/*.{js,ts,jsx,tsx}",
+    ".flowbite-react\\class-list.json"
   ],
   theme: {
     extend: {
@@ -15,5 +17,5 @@ export default {
       }
     }
   },
-  plugins: [flowbite]
+  plugins: [flowbite, flowbiteReact]
 };

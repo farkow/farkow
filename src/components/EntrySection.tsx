@@ -5,16 +5,13 @@ export default function EntrySection() {
     <section id="entry" className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
       <div className="space-y-6">
         <p className="text-sm uppercase tracking-[0.2em] text-slate-400">
-          Cyber Security & Program Concept Lead
+          Application Security and Software Development Expert
         </p>
         <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
-          Strategic cyber programs that protect, transform, and inspire trust.
+          Building secure software, systems, and on-premise AI solutions.
         </h1>
         <p className="text-base text-slate-300 md:text-lg">
-          I design security programs and communication-ready narratives that
-          help leaders make confident decisions. From zero trust to incident
-          readiness, I deliver clear milestones, stakeholder alignment, and
-          measurable impact.
+          I am an Application Security Expert and a high-performance Software Developer proficient in multiple languages. I build secure, scalable systems across both on-premise and cloud environments. Additionally, I specialize in setting up private, on-premise AI infrastructures to empower secure and independent innovation.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button color="blue" href="#contact">
@@ -26,13 +23,13 @@ export default function EntrySection() {
         </div>
         <div className="flex flex-wrap gap-3 text-sm text-slate-400">
           <span className="rounded-full border border-slate-700 px-3 py-1">
-            Program Governance
+            Application Security
           </span>
           <span className="rounded-full border border-slate-700 px-3 py-1">
-            Cyber Communications
+            Software Development
           </span>
           <span className="rounded-full border border-slate-700 px-3 py-1">
-            Executive Stakeholders
+            On-Premise AI Solutions
           </span>
         </div>
       </div>

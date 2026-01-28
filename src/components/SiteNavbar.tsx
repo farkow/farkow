@@ -6,7 +6,7 @@ export default function SiteNavbar() {
       <Navbar fluid rounded className="mx-auto w-full max-w-6xl bg-transparent">
         <Navbar.Brand href="#">
           <span className="text-lg font-semibold text-slate-100">
-            Cyber PR / Program Concepts
+            MURAT AYDIN
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
