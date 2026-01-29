@@ -6,15 +6,7 @@ import {
   FooterLinkGroup,
   FooterTitle,
 } from "flowbite-react";
-import {
-  BiLogoDribbble,
-  BiLogoFacebook,
-  BiLogoGithub,
-  BiLogoInstagram,
-  BiLogoTwitter,
-  BiLogoLinkedin,
-  BiLogoTelegram,
-} from "react-icons/bi";
+import { BiLogoGithub, BiLogoLinkedin, BiLogoTelegram } from "react-icons/bi";
 
 export default function SiteFooter() {
   return (
@@ -24,48 +16,50 @@ export default function SiteFooter() {
           <div>
             <FooterTitle title="MURAT AYDIN" />
             <FooterLinkGroup col>
-              <FooterLink href="/">About</FooterLink>
+              <FooterLink href="/#entry">About</FooterLink>
               <FooterLink href="/projects">Projects</FooterLink>
-              <FooterLink href="/recruit">Recruitment</FooterLink>
-              <FooterLink href="/contact">Contact</FooterLink>
+              <FooterLink href="/#contact">Recruitment</FooterLink>
+              <FooterLink href="/#contact">Contact</FooterLink>
             </FooterLinkGroup>
           </div>
           <div>
             <FooterTitle title="LARGE PROJECTS" />
             <FooterLinkGroup col>
-              <FooterLink href="#">Itopsy</FooterLink>
-              <FooterLink href="#">Prograi</FooterLink>
-              <FooterLink href="#">DuvarDelen</FooterLink>
+              <FooterLink href="/itopsy">Itopsy</FooterLink>
+              <FooterLink href="/prograi">Prograi</FooterLink>
+              <FooterLink href="/duvardelen">DuvarDelen</FooterLink>
             </FooterLinkGroup>
           </div>
           <div>
             <FooterTitle title="INVESTIGATION TOOLS" />
             <FooterLinkGroup col>
-              <FooterLink href="#">Torunet</FooterLink>
-              <FooterLink href="#">Netcabal</FooterLink>
-              <FooterLink href="#">Nar</FooterLink>
+              <FooterLink href="/torunet">Torunet</FooterLink>
+              <FooterLink href="/netcabal">Netcabal</FooterLink>
+              <FooterLink href="/nar">Nar</FooterLink>
             </FooterLinkGroup>
           </div>
           <div>
             <FooterTitle title="OTHER TOOLS" />
             <FooterLinkGroup col>
-              <FooterLink href="#">Sonaire</FooterLink>
-              <FooterLink href="#">Carcuva</FooterLink>
-              <FooterLink href="#">HarmoKid</FooterLink>
-              <FooterLink href="#">Magdan</FooterLink>
+              <FooterLink href="/sonaire">Sonaire</FooterLink>
+              <FooterLink href="/carcuva">Carcuva</FooterLink>
+              <FooterLink href="/harmokid">HarmoKid</FooterLink>
+              <FooterLink href="/magdan">Magdan</FooterLink>
             </FooterLinkGroup>
           </div>
         </div>
         <div className="w-full bg-gray-700 px-6 py-6 sm:flex sm:items-center sm:justify-between">
           <FooterCopyright href="/" by="Murat Aydın" year={2026} />
           <div className="mx-4 mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <FooterIcon href="#" icon={BiLogoLinkedin} />
-            <FooterIcon href="#" icon={BiLogoGithub} />
-            <FooterIcon href="#" icon={BiLogoTwitter} />
-            <FooterIcon href="#" icon={BiLogoTelegram} />
-            <FooterIcon href="#" icon={BiLogoDribbble} />
-            <FooterIcon href="#" icon={BiLogoFacebook} />
-            <FooterIcon href="#" icon={BiLogoInstagram} />
+            <FooterIcon
+              href="https://linkedin.com/in/farkow"
+              icon={BiLogoLinkedin}
+            />
+            <FooterIcon href="https://github.com/farkow" icon={BiLogoGithub} />
+            <FooterIcon
+              href="https://telegram.me/qyphruz"
+              icon={BiLogoTelegram}
+            />
           </div>
         </div>
       </div>
