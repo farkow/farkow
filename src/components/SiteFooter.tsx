@@ -53,11 +53,17 @@ export default function SiteFooter() {
             <FooterIcon
               href="https://linkedin.com/in/farkow"
               icon={BiLogoLinkedin}
+              target="_blank"
             />
-            <FooterIcon href="https://github.com/farkow" icon={BiLogoGithub} />
+            <FooterIcon
+              href="https://github.com/farkow"
+              icon={BiLogoGithub}
+              target="_blank"
+            />
             <FooterIcon
               href="https://telegram.me/qyphruz"
               icon={BiLogoTelegram}
+              target="_blank"
             />
           </div>
         </div>
