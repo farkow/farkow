@@ -35,7 +35,7 @@ export default function ContactSection() {
               Status:{" "}
               <span className="font-semibold text-green-500">Available</span>
             </p>
-            <p>Location: Remote / Hybrid</p>
+            <p>Location: Remote / Hybrid (Germany & Türkiye)</p>
             <p>Timezone: CET / GMT friendly</p>
             <p>Response time: 24-48 hours</p>
           </div>

@@ -18,7 +18,6 @@ export default function SiteFooter() {
             <FooterLinkGroup col>
               <FooterLink href="/#entry">About</FooterLink>
               <FooterLink href="/projects">Projects</FooterLink>
-              <FooterLink href="/#contact">Recruitment</FooterLink>
               <FooterLink href="/#contact">Contact</FooterLink>
             </FooterLinkGroup>
           </div>
