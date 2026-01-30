@@ -22,7 +22,7 @@ export default function SiteFooter() {
             </FooterLinkGroup>
           </div>
           <div>
-            <FooterTitle title="LARGE PROJECTS" />
+            <FooterTitle title="OWNED LARGE PROJECTS" />
             <FooterLinkGroup col>
               <FooterLink href="/itopsy">Itopsy</FooterLink>
               <FooterLink href="/prograi">Prograi</FooterLink>
@@ -30,7 +30,7 @@ export default function SiteFooter() {
             </FooterLinkGroup>
           </div>
           <div>
-            <FooterTitle title="INVESTIGATION TOOLS" />
+            <FooterTitle title="OWNED INVESTIGATION TOOLS" />
             <FooterLinkGroup col>
               <FooterLink href="/torunet">Torunet</FooterLink>
               <FooterLink href="/netcabal">Netcabal</FooterLink>
@@ -38,7 +38,7 @@ export default function SiteFooter() {
             </FooterLinkGroup>
           </div>
           <div>
-            <FooterTitle title="OTHER TOOLS" />
+            <FooterTitle title="OWNED OTHER TOOLS" />
             <FooterLinkGroup col>
               <FooterLink href="/sonaire">Sonaire</FooterLink>
               <FooterLink href="/carcuva">Carcuva</FooterLink>

@@ -1,5 +1,43 @@
+import ProjectDetail from "../components/ProjectDetail";
+
 export default function ItopsyPage() {
+  const itopsyProject = {
+    title: "Itopsy: AI-powered, no-code pentesting",
+    description:
+      "An AI-powered, node-based, visual penetration testing platform that enables security professionals and developers to automate complex security assessments without writing a single line of code.",
+    images: ["/img/itopsy.png"],
+    video: "/vid/itopsy.mp4",
+    tags: [
+      "Cybersecurity",
+      "AI",
+      "No-Code",
+      "Pentesting",
+      "Node-based",
+      "Automated",
+    ],
+    contribution:
+      "I designed and implemented the entire core engine of Itopsy, including the node-based visual editor, the AI orchestration layer for automated vulnerability discovery, and the backend infrastructure that executes security tests in isolated environments.",
+    techStack: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis",
+      "Tailored AI Assistant",
+    ],
+    owned: true,
+    featured: true,
+  };
+
   return (
-    <main className="mx-auto flex w-full max-w-7xl flex-col gap-16 px-6 pt-12 pb-32"></main>
+    <main className="min-h-screen bg-slate-950">
+      <div className="pt-8">
+        <ProjectDetail {...itopsyProject} />
+      </div>
+    </main>
   );
 }
