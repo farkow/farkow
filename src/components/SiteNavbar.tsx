@@ -22,7 +22,7 @@ export default function SiteNavbar() {
           </span>
         </Link>
         <div className="flex md:order-2">
-          <Button as={Link} to="/projects" size="sm">
+          <Button as={Link} to="/projects" size="sm" color="green">
             Projects
           </Button>
           <NavbarToggle />

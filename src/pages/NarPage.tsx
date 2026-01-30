@@ -2,13 +2,28 @@ import ProjectDetail from "../components/ProjectDetail";
 
 export default function NarPage() {
   const narProject = {
-    title: "Nar: An investigation tool...",
-    description: "",
+    title: "Nar: Graph-Based E-Devlet Family Genealogy",
+    description:
+      "Nar is a specialized genealogical tool that transforms data from Türkiye's E-Devlet platform into complex, multi-generational family trees. By utilizing graph database technology, it enables users to visualize and navigate combined family lineages, uncovering intricate ancestral connections and historical patterns that are difficult to trace through traditional records.",
     images: [],
     video: "",
-    tags: [],
-    contribution: "",
-    techStack: [""],
+    tags: [
+      "Genealogy",
+      "Graph Database",
+      "E-Devlet",
+      "Data Visualization",
+      "Family Tree",
+    ],
+    contribution:
+      "Co-created from scratch with my close friend Ilgin Yildiz, I focused on architecting the graph data model and developing the data parsing engine. Together, we engineered the logic for handling complex relationship nodes and designed the interactive frontend to provide a seamless exploration of large-scale family networks.",
+    techStack: [
+      "Python",
+      "Neo4j",
+      "Cypher",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
     owned: true,
     featured: false,
   };

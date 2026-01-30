@@ -26,6 +26,39 @@ const PROJECTS: Project[] = [
     priority: 50,
   },
   {
+    title: "Pharmaceutical Track & Trace",
+    description:
+      "It aims to provide drug safety and prevent counterfeiting. This innovative system tracks and traces the pharmaceutical supply chain from the production or importation to the end user.",
+    images: ["/img/its.png"],
+    link: "/its",
+    isOwned: false,
+    isCompany: true,
+    isFeatured: true,
+    priority: 49,
+  },
+  {
+    title: "Digital Currency Security",
+    description:
+      "Securing digital currency transactions and exchanges in compliance with PCI DSS, including offline payments, cold storage, and hardware wallets.",
+    images: ["/img/digital-currency.png"],
+    link: "",
+    isOwned: false,
+    isCompany: true,
+    isFeatured: true,
+    priority: 48,
+  },
+  {
+    title: "Chemical B2B Marketplace",
+    description:
+      "A chemical B2B marketplace for chemical suppliers and buyers, including inventory management and order processing.",
+    images: ["/img/chemondis.png"],
+    link: "/chemondis",
+    isOwned: false,
+    isCompany: true,
+    isFeatured: true,
+    priority: 47,
+  },
+  {
     title: "Secure Coding for Enterprises",
     description:
       "Enterprise secure coding policy which is compliant with NIST SSDF and OWASP Secure Coding Practices, including a code review process with code scanners and AI, a security training program, and a security testing process.",
@@ -48,6 +81,28 @@ const PROJECTS: Project[] = [
     priority: 45,
   },
   {
+    title: "Insurance Coach Automation",
+    description:
+      "An insurance coach assistant for insurance agents and brokers, including a knowledge base, a personalized coaching program, and automation.",
+    images: ["/img/insurance-coach.png"],
+    link: "",
+    isOwned: false,
+    isCompany: true,
+    isFeatured: false,
+    priority: 44,
+  },
+  {
+    title: "KYK.NET",
+    description:
+      "Through this application, you can perform many transactions electronically, such as dormitory applications, scholarship applications, and dormitory registration fee payments.",
+    images: ["/img/kyknet.png"],
+    link: "",
+    isOwned: false,
+    isCompany: true,
+    isFeatured: false,
+    priority: 43,
+  },
+  {
     title: "MoveIT Attack: Technical Analysis",
     description:
       "Technical analysis of the MoveIT attack, including a detailed breakdown of the attack and its impact.",
@@ -57,17 +112,6 @@ const PROJECTS: Project[] = [
     isCompany: true,
     isFeatured: false,
     priority: 42,
-  },
-  {
-    title: "Digital Currency Security",
-    description:
-      "Securing digital currency transactions and exchanges in compliance with PCI DSS, including offline payments, cold storage, and hardware wallets.",
-    images: ["/img/digital-currency.png"],
-    link: "",
-    isOwned: false,
-    isCompany: true,
-    isFeatured: true,
-    priority: 48,
   },
   {
     title: "Aircraft 3D Editor w/ Procurement",
@@ -92,28 +136,6 @@ const PROJECTS: Project[] = [
     priority: 40,
   },
   {
-    title: "Insurance Coach Automation",
-    description:
-      "An insurance coach assistant for insurance agents and brokers, including a knowledge base, a personalized coaching program, and automation.",
-    images: ["/img/insurance-coach.png"],
-    link: "",
-    isOwned: false,
-    isCompany: true,
-    isFeatured: false,
-    priority: 44,
-  },
-  {
-    title: "Chemical B2B Marketplace",
-    description:
-      "A chemical B2B marketplace for chemical suppliers and buyers, including inventory management and order processing.",
-    images: ["/img/chemondis.png"],
-    link: "/chemondis",
-    isOwned: false,
-    isCompany: true,
-    isFeatured: true,
-    priority: 47,
-  },
-  {
     title: "Mixed Reality TV Show",
     description:
       "Lost In Time is a Norwegian game show that aired on TV Norge March 25th 2017. It combines interactive mixed reality technology with virtual production to transport contestants to different landscapes scattered across time and space and is all based on Epic's UNREAL Engine 4 game Engine.",
@@ -123,28 +145,6 @@ const PROJECTS: Project[] = [
     isCompany: true,
     isFeatured: false,
     priority: 39,
-  },
-  {
-    title: "Pharmaceutical Track & Trace",
-    description:
-      "It is created in order to prevent fraud in pharmaceuticals, maintain patient security and monitor pharmaceuticals at every stage. It has been implemented in this scope for the first time in the world.",
-    images: ["/img/its.png"],
-    link: "/its",
-    isOwned: false,
-    isCompany: true,
-    isFeatured: true,
-    priority: 49,
-  },
-  {
-    title: "KYK.NET",
-    description:
-      "Through this application, you can perform many transactions electronically, such as dormitory applications, scholarship applications, and dormitory registration fee payments.",
-    images: ["/img/kyknet.png"],
-    link: "",
-    isOwned: false,
-    isCompany: true,
-    isFeatured: false,
-    priority: 43,
   },
 ];
 
