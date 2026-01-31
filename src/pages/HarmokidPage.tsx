@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function HarmokidPage() {
   const harmokidProject = {
@@ -31,6 +32,11 @@ export default function HarmokidPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="HarmoKid: AI-Powered Educational Song Generator"
+        description="HarmoKid uses AI to generate original educational songs and videos for children on safety and health topics."
+        keywords="HarmoKid, EdTech, AI Music, Educational Content, Video Synthesis"
+      />
       <div className="pt-8">
         <ProjectDetail {...harmokidProject} />
       </div>

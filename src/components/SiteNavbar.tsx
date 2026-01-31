@@ -9,7 +9,7 @@ import {
 
 export default function SiteNavbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+    <header className="sticky top-0 z-50 backdrop-blur">
       <Navbar fluid rounded className="mx-auto w-full max-w-6xl bg-transparent">
         <Link to="/" className="flex items-center gap-2">
           <img

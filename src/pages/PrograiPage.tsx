@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function PrograiPage() {
   const prograiProject = {
@@ -17,6 +18,11 @@ export default function PrograiPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Prograi: On-Premise Enterprise AI Assistant"
+        description="Prograi is a high-security, on-premise AI-powered code assistant designed for absolute privacy in enterprise environments."
+        keywords="Prograi, Enterprise AI, On-Premise LLM, Private AI, Secure Coding"
+      />
       <div className="pt-8">
         <ProjectDetail {...prograiProject} />
       </div>

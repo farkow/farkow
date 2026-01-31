@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function SonairePage() {
   const sonaireProject = {
@@ -23,6 +24,11 @@ export default function SonairePage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Sonaire: AI-Driven Quiz Automation"
+        description="Sonaire automates the creation of multilingual social media video quizzes using AI and advanced video processing."
+        keywords="Sonaire, AI Automation, Content Creation, Quiz Generator, Social Media Marketing"
+      />
       <div className="pt-8">
         <ProjectDetail {...sonaireProject} />
       </div>

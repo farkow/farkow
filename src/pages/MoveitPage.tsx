@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function MoveitPage() {
   const moveitProject = {
@@ -33,6 +34,11 @@ export default function MoveitPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="MoveIT Attack: Technical Analysis"
+        description="A deep dive technical analysis of the MOVEit Transfer (CVE-2023-34362) zero-day SQL injection vulnerability and exploit chain."
+        keywords="MoveIT, CVE-2023-34362, SQL Injection, Cybersecurity Analysis, Vulnerability Research"
+      />
       <div className="pt-8">
         <ProjectDetail {...moveitProject} />
       </div>

@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function ItopsyPage() {
   const itopsyProject = {
@@ -35,6 +36,11 @@ export default function ItopsyPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Itopsy: AI-powered, no-code pentesting"
+        description="Learn about Itopsy, an AI-powered, node-based, visual penetration testing platform that automates complex security assessments."
+        keywords="Itopsy, Pentesting, AI Security, No-Code, Cybersecurity Automation"
+      />
       <div className="pt-8">
         <ProjectDetail {...itopsyProject} />
       </div>

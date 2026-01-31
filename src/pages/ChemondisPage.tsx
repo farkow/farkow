@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function ChemondisPage() {
   const chemondisProject = {
@@ -31,6 +32,11 @@ export default function ChemondisPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Chemondis: Chemical B2B Marketplace"
+        description="Learn about Chemondis, a leading global B2B online marketplace for industrial chemicals, connecting verified suppliers and buyers."
+        keywords="Chemondis, B2B Marketplace, Chemicals, Supply Chain, Procurement"
+      />
       <div className="pt-8">
         <ProjectDetail {...chemondisProject} />
       </div>

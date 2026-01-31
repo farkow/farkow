@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function ItsPage() {
   const itsProject = {
@@ -18,6 +19,11 @@ export default function ItsPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Pharmaceutical Track & Trace System"
+        description="A pioneering pharmaceutical tracking platform designed to prevent fraud, maintain patient security, and monitor drug supply chains."
+        keywords="Pharma, Track & Trace, Drug Safety, Fraud Prevention, Cybersecurity"
+      />
       <div className="pt-8">
         <ProjectDetail {...itsProject} />
       </div>

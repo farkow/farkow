@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { Checkbox } from "flowbite-react";
+import SEO from "../components/SEO";
 
 interface Project {
   title: string;
@@ -171,6 +172,11 @@ export default function ProjectsPage() {
 
   return (
     <main className="mx-auto flex w-full max-w-7xl flex-col gap-16 px-6 pt-12 pb-32">
+      <SEO
+        title="Projects"
+        description="Explore my portfolio of projects, ranging from AI-powered penetration testing platforms to pharmaceutical track and trace systems."
+        keywords="Portfolio, Projects, Software Engineering, cybersecurity, AI solutions"
+      />
       <div className="flex flex-col gap-4 text-center">
         <h1 className="h-18 bg-linear-to-r from-white to-slate-500 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-6xl">
           Contributions and My Own Projects

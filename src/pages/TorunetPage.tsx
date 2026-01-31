@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function TorunetPage() {
   const torunetProject = {
@@ -30,6 +31,11 @@ export default function TorunetPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Torunet: Local-First Investigative Graph Platform"
+        description="Torunet is a privacy-focused, local-first graph platform for investigative data analysis and relationship mapping."
+        keywords="Torunet, Graph Platform, OSINT, Data Analysis, Local-First, Investigative Tool"
+      />
       <div className="pt-8">
         <ProjectDetail {...torunetProject} />
       </div>

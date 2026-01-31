@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function NarPage() {
   const narProject = {
@@ -30,6 +31,11 @@ export default function NarPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Nar: Graph-Based Family Genealogy"
+        description="Nar transforms Türkiye's e-Devlet data into interactive family trees using graph database technology."
+        keywords="Nar, Genealogy, Graph Database, Family Tree, e-Devlet, Data Visualization"
+      />
       <div className="pt-8">
         <ProjectDetail {...narProject} />
       </div>

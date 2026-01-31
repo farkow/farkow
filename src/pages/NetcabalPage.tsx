@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function NetcabalPage() {
   const netcabalProject = {
@@ -31,6 +32,11 @@ export default function NetcabalPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Netcabal: Conspiracy Theory Editor"
+        description="Netcabal is an interactive node-based visual editor designed for mapping and exploring complex relational data and influence networks."
+        keywords="Netcabal, Visual Editor, Node-Based, Data Visualization, Investigation Tool"
+      />
       <div className="pt-8">
         <ProjectDetail {...netcabalProject} />
       </div>

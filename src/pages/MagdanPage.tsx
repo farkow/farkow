@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function MagdanPage() {
   const magdanProject = {
@@ -23,6 +24,11 @@ export default function MagdanPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Magdan: Local GPU Bitcoin Miner"
+        description="Magdan is a specialized local Bitcoin mining application for development and testing, leveraging GPU acceleration for PoW simulations."
+        keywords="Magdan, Bitcoin Mining, GPU Computing, Blockchain, Proof of Work"
+      />
       <div className="pt-8">
         <ProjectDetail {...magdanProject} />
       </div>

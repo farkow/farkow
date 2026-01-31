@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function CarcuvaPage() {
   const carcuvaProject = {
@@ -30,6 +31,11 @@ export default function CarcuvaPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Carcuva: AI-Driven Interactive Live Picture Frame"
+        description="Explore Carcuva, an AI-driven interactive picture frame that transforms static photos into living portraits with emotion modeling."
+        keywords="Carcuva, AI Animation, Interactive Art, Smart Home, Emotion AI"
+      />
       <div className="pt-8">
         <ProjectDetail {...carcuvaProject} />
       </div>

@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function LitPage() {
   const litProject = {
@@ -26,6 +27,11 @@ export default function LitPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Lost in Time: Mixed Reality TV Show"
+        description="Experience the backend architecture of 'Lost in Time', a Norwegian game show combining interactive mixed reality with Unreal Engine 4."
+        keywords="Lost in Time, Mixed Reality, Unreal Engine, Virtual Production, Game Show"
+      />
       <div className="pt-8">
         <ProjectDetail {...litProject} />
       </div>

@@ -1,4 +1,5 @@
 import ProjectDetail from "../components/ProjectDetail";
+import SEO from "../components/SEO";
 
 export default function DuvardelenPage() {
   const duvardelenProject = {
@@ -31,6 +32,11 @@ export default function DuvardelenPage() {
 
   return (
     <main className="min-h-screen bg-slate-950">
+      <SEO
+        title="Duvardelen: WiFi-Based Fall Detection & Pose Estimation"
+        description="Duvardelen is a WiFi-based healthcare monitoring system for fall detection and pose estimation without cameras, ensuring privacy for elderly care."
+        keywords="Duvardelen, WiFi Tracking, Pose Estimation, Fall Detection, Healthcare AI"
+      />
       <div className="pt-8">
         <ProjectDetail {...duvardelenProject} />
       </div>
