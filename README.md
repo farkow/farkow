@@ -17,18 +17,6 @@ I am a seasoned technology leader with over 15 years of experience engineering s
 
 ### 🛠️ Featured Projects
 
-#### [🛡️ Itopsy: AI-Powered Pentesting](https://farkow.com/itopsy)
-
-An AI-powered, node-based visual penetration testing platform for automated security assessments.
-
-- **Purpose**: Pentest automation and utilization of existing defensive cyber security teams on offensive objectives.
-
-#### [🤖 Prograi: On-Premise AI Assistant](https://farkow.com/prograi)
-
-A high-security, autonomous AI code assistant designed for absolute privacy in enterprise environments.
-
-- **Focus**: Local LLMs, Air-gapped environments, Secure inference pipelines.
-
 #### [💊 Pharmaceutical Track & Trace](https://farkow.com/its)
 
 Provides drug safety and prevents counterfeiting. This innovative system tracks and traces the pharmaceutical supply chain from the production or importation to the end user.
@@ -38,6 +26,54 @@ Provides drug safety and prevents counterfeiting. This innovative system tracks 
 #### [🏢 Digital Currency Security](https://farkow.com/)
 
 Securing digital currency transactions and exchanges in compliance with PCI DSS, including offline payments, cold storage, and hardware wallets.
+
+#### [🏢 Chemical B2B Marketplace](https://farkow.com/chemondis)
+
+A chemical B2B marketplace for chemical suppliers and buyers, including inventory management and order processing.
+
+---
+
+### Featured Own Projects
+
+#### [🛡️ Itopsy: AI-Powered Pentesting](https://farkow.com/itopsy)
+
+An AI-powered, node-based visual penetration testing platform for automated security assessments.
+
+#### [🤖 Prograi: On-Premise Enterprise AI](https://farkow.com/prograi)
+
+A high-security, autonomous AI-powered code assistant tailored for enterprise requirements, operating entirely on-premise with zero internet dependency.
+
+#### [🏥 Duvardelen: WiFi-Based Fall Detection](https://farkow.com/duvardelen)
+
+A healthcare monitoring system that utilizes WiFi signals for dense human pose estimation through walls, optimized for elderly care and privacy.
+
+#### [🔍 Torunet: Investigative Graph Platform](https://farkow.com/torunet)
+
+A privacy-focused, local-first graph platform for investigative data analysis and relationship mapping.
+
+#### [🕸️ Netcabal: Conspiracy Theory Editor](https://farkow.com/netcabal)
+
+An interactive node-based visual editor designed for mapping and exploring complex influence networks.
+
+#### [🌳 Nar: Graph-Based Family Genealogy](https://farkow.com/nar)
+
+A genealogical tool that transforms data from Türkiye's E-Devlet platform into complex, multi-generational family trees.
+
+#### [🎬 Sonaire: AI Social Media Quiz Automation](https://farkow.com/sonaire)
+
+An automated content creation platform that generates multilingual social media quizzes and high-quality videos using AI.
+
+#### [🖼️ Carcuva: AI Interactive Picture Frame](https://farkow.com/carcuva)
+
+Transforms static photos into living, emotional portraits using AI motion modeling for tablet-based smart frames.
+
+#### [🎵 HarmoKid: AI Educational Song Generator](https://farkow.com/harmokid)
+
+An EdTech platform that leverages AI to generate original songs and videos to teach children about safety and health topics.
+
+#### [⛏️ Magdan: Local GPU Bitcoin Miner](https://farkow.com/magdan)
+
+A specialized local Bitcoin mining application for developers to simulate mining operations and understand PoW mechanics using home GPUs.
 
 ---
 
