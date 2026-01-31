@@ -11,7 +11,15 @@ export default function PrograiPage() {
     tags: ["AI", "GenAI", "Local LLM", "On-Premise", "Enterprise Security"],
     contribution:
       "I am the sole creator of Prograi, having architected and developed the entire system from scratch. I engineered the full-stack infrastructure, integrated local Large Language Models for air-gapped environments, and designed the secure processing pipeline to ensure high-performance code assistance without external data exposure.",
-    techStack: [""],
+    techStack: [
+      "Python",
+      "Llama",
+      "OpenCode",
+      "Redis",
+      "PostgreSQL",
+      "Go",
+      "React/Typescript",
+    ],
     owned: true,
     featured: false,
   };
