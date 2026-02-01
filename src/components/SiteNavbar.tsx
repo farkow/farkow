@@ -28,11 +28,11 @@ export default function SiteNavbar() {
           <NavbarToggle />
         </div>
         <NavbarCollapse>
-          <NavbarLink href="#entry">Entry</NavbarLink>
-          <NavbarLink href="#experience">Experience</NavbarLink>
-          <NavbarLink href="#skills">Skills</NavbarLink>
-          <NavbarLink href="#certifications">Certifications</NavbarLink>
-          <NavbarLink href="#contact">Contact</NavbarLink>
+          <NavbarLink href="/#entry">Entry</NavbarLink>
+          <NavbarLink href="/#experience">Experience</NavbarLink>
+          <NavbarLink href="/#skills">Skills</NavbarLink>
+          <NavbarLink href="/#certifications">Certifications</NavbarLink>
+          <NavbarLink href="/#contact">Contact</NavbarLink>
         </NavbarCollapse>
       </Navbar>
     </header>
