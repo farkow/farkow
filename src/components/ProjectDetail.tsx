@@ -157,7 +157,6 @@ export default function ProjectDetail({
             {link && (
               <a
                 href={link}
-                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex w-fit items-center gap-2 rounded-full bg-linear-to-r from-emerald-500 to-teal-600 px-5 py-2 text-sm font-bold text-white shadow-lg shadow-emerald-500/25 transition-all hover:-translate-y-0.5 hover:shadow-emerald-500/40 active:translate-y-0"
               >
