@@ -6,7 +6,7 @@ export default function ItopsyPage() {
     title: "Itopsy: AI-powered, no-code pentesting",
     description:
       "An AI-powered, node-based, visual penetration testing platform that enables security professionals and developers to automate complex security assessments without writing a single line of code.",
-    images: ["/img/itopsy.png"],
+    images: [],
     video: "/vid/itopsy.mp4",
     tags: [
       "Cybersecurity",
