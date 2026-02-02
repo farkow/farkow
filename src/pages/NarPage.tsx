@@ -6,7 +6,7 @@ export default function NarPage() {
     title: "Nar: Graph-Based E-Devlet Family Genealogy",
     description:
       "Nar is a specialized genealogical tool that transforms data from Türkiye's E-Devlet platform into complex, multi-generational family trees. By utilizing graph database technology, it enables users to visualize and navigate combined family lineages, uncovering intricate ancestral connections and historical patterns that are difficult to trace through traditional records.",
-    images: [],
+    images: ["/img/nar-1.png", "/img/nar-2.png"],
     video: "",
     tags: [
       "Genealogy",
