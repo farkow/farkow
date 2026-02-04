@@ -103,7 +103,7 @@ const PROJECTS: Project[] = [
     isFeatured: false,
     priority: 43,
   },
-  {
+  /*{
     title: "MoveIT Attack: Technical Analysis",
     description:
       "Technical analysis of the MoveIT attack, including a detailed breakdown of the attack and its impact.",
@@ -113,7 +113,7 @@ const PROJECTS: Project[] = [
     isCompany: true,
     isFeatured: false,
     priority: 42,
-  },
+  },*/
   {
     title: "Aircraft 3D Editor w/ Procurement",
     description:

@@ -33,7 +33,7 @@ export default function App() {
         <Route path="/its" element={<ItsPage />} />
         <Route path="/lit" element={<LitPage />} />
         <Route path="/magdan" element={<MagdanPage />} />
-        <Route path="/moveit" element={<MoveitPage />} />
+        <Route path="/moveit_attack" element={<MoveitPage />} />
         <Route path="/nar" element={<NarPage />} />
         <Route path="/netcabal" element={<NetcabalPage />} />
         <Route path="/prograi" element={<PrograiPage />} />
