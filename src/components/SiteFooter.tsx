@@ -48,7 +48,15 @@ export default function SiteFooter() {
           </div>
         </div>
         <div className="w-full bg-gray-700 px-6 py-6 sm:flex sm:items-center sm:justify-between">
-          <FooterCopyright href="/" by="Murat Aydın" year={2026} />
+          <div className="mb-2 flex items-center gap-2">
+            <FooterCopyright href="/" by="Murat Aydın" year={2026} />
+            <img
+              src="/turkiye_flag.png"
+              alt="Türkiye Flag"
+              className="h-4 w-auto"
+            />
+          </div>
+
           <div className="mx-4 mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <FooterIcon
               href="https://linkedin.com/in/farkow"
