@@ -14,7 +14,7 @@ export default function ContactSection() {
       </div>
 
       <div className="flex flex-row gap-6">
-        <Card className="basis-4/6 border-slate-800 bg-slate-900/40">
+        <Card className="basis-3/6 border-slate-800 bg-slate-900/40">
           <h3 className="text-xl font-semibold text-slate-100">Contact</h3>
           <p className="text-sm text-slate-300">
             You can reach me at qyphruz@proton.me.
@@ -28,7 +28,7 @@ export default function ContactSection() {
             </Button>
           </div>
         </Card>
-        <Card className="basis-2/6 border-slate-800 bg-slate-900/40">
+        <Card className="basis-3/6 border-slate-800 bg-slate-900/40">
           <h3 className="text-xl font-semibold text-slate-100">Availability</h3>
           <div className="space-y-2 text-sm text-slate-300">
             <p>

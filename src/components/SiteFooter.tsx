@@ -68,11 +68,6 @@ export default function SiteFooter() {
               icon={BiLogoGithub}
               target="_blank"
             />
-            <FooterIcon
-              href="https://telegram.me/qyphruz"
-              icon={BiLogoTelegram}
-              target="_blank"
-            />
           </div>
         </div>
       </div>

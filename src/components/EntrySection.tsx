@@ -22,13 +22,13 @@ export default function EntrySection() {
             Secure by Design, Cloud-Native, AI-Enhanced
           </h2>
           <h3 className="text-lg font-semibold text-emerald-400 md:text-xl">
-            15+ Years of Full-Stack Expertise
+            17 Years of Software & Cyber Security Experience
           </h3>
         </div>
       </div>
       <div className="mt-4 space-y-6">
         <p className="text-base text-slate-300 md:text-lg">
-          I’m a seasoned technology leader with 17+ years of experience
+          I’m a seasoned technology leader with 17 years of experience
           engineering secure, scalable software systems across cloud
           environments. My work sits at the powerful intersection of application
           security, cloud-native architecture, and applied artificial
