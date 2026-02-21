@@ -1,17 +1,11 @@
-import {
-  Footer,
-  FooterCopyright,
-  FooterIcon,
-  FooterLink,
-  FooterLinkGroup,
-  FooterTitle,
-} from "flowbite-react";
-import { BiLogoGithub, BiLogoLinkedin, BiLogoTelegram } from "react-icons/bi";
+import { Footer, FooterCopyright, FooterIcon } from "flowbite-react";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
 export default function SiteFooter() {
   return (
     <Footer bgDark>
       <div className="w-full">
+        {/*
         <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
           <div>
             <FooterTitle title="MURAT AYDIN" />
@@ -47,6 +41,7 @@ export default function SiteFooter() {
             </FooterLinkGroup>
           </div>
         </div>
+        */}
         <div className="w-full bg-gray-700 px-6 py-6 sm:flex sm:items-center sm:justify-between">
           <div className="mb-2 flex items-center gap-2">
             <FooterCopyright href="/" by="Murat Aydın" year={2026} />
