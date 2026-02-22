@@ -7,7 +7,7 @@ import ItopsyPage from "./pages/ItopsyPage";
 import CarcuvaPage from "./pages/CarcuvaPage";
 import SonairePage from "./pages/SonairePage";
 import HarmokidPage from "./pages/HarmokidPage";
-import NarPage from "./pages/NarPage";
+import UrugumPage from "./pages/UrugumPage";
 import NetcabalPage from "./pages/NetcabalPage";
 import TorunetPage from "./pages/TorunetPage";
 import DuvardelenPage from "./pages/DuvardelenPage";
@@ -34,7 +34,7 @@ export default function App() {
         <Route path="/lit" element={<LitPage />} />
         <Route path="/magdan" element={<MagdanPage />} />
         <Route path="/moveit_attack" element={<MoveitPage />} />
-        <Route path="/nar" element={<NarPage />} />
+        <Route path="/urugum" element={<UrugumPage />} />
         <Route path="/netcabal" element={<NetcabalPage />} />
         <Route path="/prograi" element={<PrograiPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
