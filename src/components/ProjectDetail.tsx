@@ -6,6 +6,7 @@ import {
   BiLayer,
   BiLinkExternal,
 } from "react-icons/bi";
+import * as m from "../paraglide/messages.js";
 
 interface ProjectDetailProps {
   title: string;
@@ -53,12 +54,12 @@ export default function ProjectDetail({
           <div className="flex gap-2">
             {featured && (
               <div className="flex items-center gap-1 rounded-full bg-emerald-500/90 px-3 py-1 text-[10px] font-bold tracking-wider text-white shadow-lg shadow-emerald-500/20 backdrop-blur-sm">
-                FEATURED
+                {m.card_featured()}
               </div>
             )}
             {owned && (
               <div className="flex items-center gap-1 rounded-full bg-blue-500/90 px-3 py-1 text-[10px] font-bold tracking-wider text-white shadow-lg shadow-blue-500/20 backdrop-blur-sm">
-                OWN PROJECT
+                {m.card_own_project()}
               </div>
             )}
           </div>
@@ -147,7 +148,7 @@ export default function ProjectDetail({
             <div className="flex items-center gap-3 text-emerald-400">
               <BiLayer className="text-2xl" />
               <h2 className="text-xl font-bold tracking-wider uppercase">
-                My Contribution
+                {m.detail_my_contribution()}
               </h2>
             </div>
             <p className="text-base leading-relaxed text-slate-300">
@@ -160,7 +161,7 @@ export default function ProjectDetail({
                 rel="noopener noreferrer"
                 className="group flex w-fit items-center gap-2 rounded-full bg-linear-to-r from-emerald-500 to-teal-600 px-5 py-2 text-sm font-bold text-white shadow-lg shadow-emerald-500/25 transition-all hover:-translate-y-0.5 hover:shadow-emerald-500/40 active:translate-y-0"
               >
-                <span>Visit Project</span>
+                <span>{m.detail_visit_project()}</span>
                 <BiLinkExternal className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             )}
@@ -171,7 +172,7 @@ export default function ProjectDetail({
             <div className="flex items-center gap-3 text-emerald-400">
               <BiCodeAlt className="text-2xl" />
               <h2 className="text-xl font-bold tracking-wider uppercase">
-                Tech Stack
+                {m.detail_tech_stack()}
               </h2>
             </div>
             <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3">

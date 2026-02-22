@@ -1,19 +1,21 @@
 import { Badge, Card } from "flowbite-react";
+import * as m from "../paraglide/messages.js";
 
 export default function SkillsSection() {
   return (
     <section id="skills">
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold text-slate-100">Skills</h2>
-        <p className="text-sm text-slate-300">
-          Programming languages and offensive security tools I have experience
-          with.
-        </p>
+        <h2 className="text-2xl font-semibold text-slate-100">
+          {m.skills_heading()}
+        </h2>
+        <p className="text-sm text-slate-300">{m.skills_subtitle()}</p>
       </div>
 
       <div className="flex flex-row gap-6">
         <Card className="basis-1/3 border-slate-800 bg-slate-900/40">
-          <h3 className="text-xl font-semibold text-slate-100">Languages</h3>
+          <h3 className="text-xl font-semibold text-slate-100">
+            {m.skills_languages()}
+          </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="go" color="teal" size="sm">
               Go
@@ -49,7 +51,7 @@ export default function SkillsSection() {
         </Card>
         <Card className="basis-1/3 border-slate-800 bg-slate-900/40">
           <h3 className="text-xl font-semibold text-slate-100">
-            Offensive Security
+            {m.skills_offensive()}
           </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="metasploit" color="red" size="sm">
@@ -73,7 +75,9 @@ export default function SkillsSection() {
           </div>
         </Card>
         <Card className="basis-1/3 border-slate-800 bg-slate-900/40">
-          <h3 className="text-xl font-semibold text-slate-100">Technologies</h3>
+          <h3 className="text-xl font-semibold text-slate-100">
+            {m.skills_technologies()}
+          </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="git" color="indigo" size="sm">
               Git
@@ -102,7 +106,9 @@ export default function SkillsSection() {
           </div>
         </Card>
         <Card className="basis-1/3 border-slate-800 bg-slate-900/40">
-          <h3 className="text-xl font-semibold text-slate-100">Databases</h3>
+          <h3 className="text-xl font-semibold text-slate-100">
+            {m.skills_databases()}
+          </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="mariadb" color="purple" size="sm">
               MySQL/MariaDB

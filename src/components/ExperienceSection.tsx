@@ -1,20 +1,20 @@
 import { Badge, Card } from "flowbite-react";
+import * as m from "../paraglide/messages.js";
 
 export default function ExperienceSection() {
   return (
     <section id="experience">
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold text-slate-100">Experience</h2>
-        <p className="text-sm text-slate-300">
-          Famous companies I have worked for. Well-known customers I have
-          experience with.
-        </p>
+        <h2 className="text-2xl font-semibold text-slate-100">
+          {m.experience_heading()}
+        </h2>
+        <p className="text-sm text-slate-300">{m.experience_subtitle()}</p>
       </div>
 
       <div className="flex flex-row gap-6">
         <Card className="basis-1/2 border-slate-800 bg-slate-900/40">
           <h3 className="text-xl font-semibold text-slate-100">
-            Work experience
+            {m.experience_work()}
           </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="schaeffler" color="gray" size="sm">
@@ -33,7 +33,7 @@ export default function ExperienceSection() {
         </Card>
         <Card className="basis-1/2 border-slate-800 bg-slate-900/40">
           <h3 className="text-xl font-semibold text-slate-100">
-            Customer experience
+            {m.experience_customer()}
           </h3>
           <div className="flex flex-wrap gap-2">
             <Badge key="akparti" color="gray" size="sm">

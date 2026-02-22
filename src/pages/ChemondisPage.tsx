@@ -1,11 +1,11 @@
 import ProjectDetail from "../components/ProjectDetail";
 import SEO from "../components/SEO";
+import * as m from "../paraglide/messages.js";
 
 export default function ChemondisPage() {
   const chemondisProject = {
-    title: "Chemondis: Chemical B2B Marketplace",
-    description:
-      "CheMondis is a leading global B2B online marketplace specifically designed for the professional trade of industrial chemicals. Founded as a venture of LANXESS, it connects verified suppliers with thousands of buying companies, digitizing the complex chemical supply chain and offering a transparent, secure environment for sourcing over 50,000 products.",
+    title: m.project_chemondis_detail_title(),
+    description: m.project_chemondis_detail_description(),
     images: [
       "/img/chemondis-1.png",
       "/img/chemondis-2.png",
@@ -14,8 +14,7 @@ export default function ChemondisPage() {
     ],
     video: "/vid/chemondis.mp4",
     tags: ["Chemicals", "Marketplace", "B2B", "Supply Chain", "Procurement"],
-    contribution:
-      "I served as the Technical Lead for the CheMondis platform from its early development stages through to successful customer delivery. In this role, I spearheaded a diverse, international team of specialists, coordinating cross-border collaboration and managing varied skill sets to ensure project milestones were met. Beyond my leadership responsibilities, I was deeply involved in the core backend programming, where I focused on architecting secure, scalable systems and optimizing database performance to handle the demands of a global B2B marketplace.",
+    contribution: m.project_chemondis_contribution(),
     techStack: [
       "Python",
       "Django",
@@ -33,8 +32,8 @@ export default function ChemondisPage() {
   return (
     <main className="min-h-screen bg-slate-950">
       <SEO
-        title="Chemondis: Chemical B2B Marketplace"
-        description="Learn about Chemondis, a leading global B2B online marketplace for industrial chemicals, connecting verified suppliers and buyers."
+        title={m.project_chemondis_detail_title()}
+        description={m.project_chemondis_detail_description()}
         keywords="Chemondis, B2B Marketplace, Chemicals, Supply Chain, Procurement"
       />
       <div className="pt-8">

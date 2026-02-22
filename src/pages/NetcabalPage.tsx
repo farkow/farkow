@@ -1,11 +1,11 @@
 import ProjectDetail from "../components/ProjectDetail";
 import SEO from "../components/SEO";
+import * as m from "../paraglide/messages.js";
 
 export default function NetcabalPage() {
   const netcabalProject = {
-    title: "Netcabal: Interactive Conspiracy Theory Editor",
-    description:
-      "Netcabal is a dynamic, web-based visual editor designed for mapping and exploring complex conspiracy theories. Using an intuitive node-based interface, it allows users to connect disparate events, individuals, and organizations to visualize intricate webs of influence and causation in a highly interactive environment.",
+    title: m.project_netcabal_title(),
+    description: m.project_netcabal_description(),
     images: [],
     video: "",
     tags: [
@@ -15,8 +15,7 @@ export default function NetcabalPage() {
       "Investigation",
       "Interactive",
     ],
-    contribution:
-      "I built Netcabal from scratch as the sole developer, architecting the entire visual engine and node logic. I developed the interactive graphing system using ReactFlow, ensuring a highly responsive and intuitive user experience for mapping complex relational data.",
+    contribution: m.project_netcabal_contribution(),
     techStack: [
       "Go",
       "Neo4j",
@@ -33,8 +32,8 @@ export default function NetcabalPage() {
   return (
     <main className="min-h-screen bg-slate-950">
       <SEO
-        title="Netcabal: Conspiracy Theory Editor"
-        description="Netcabal is an interactive node-based visual editor designed for mapping and exploring complex relational data and influence networks."
+        title={m.project_netcabal_title()}
+        description={m.project_netcabal_description()}
         keywords="Netcabal, Visual Editor, Node-Based, Data Visualization, Investigation Tool"
       />
       <div className="pt-8">

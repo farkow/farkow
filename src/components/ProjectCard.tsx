@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import * as m from "../paraglide/messages.js";
 
 interface ProjectCardProps {
   title: string;
@@ -41,12 +42,12 @@ export default function ProjectCard({
         <div className="absolute top-3 right-3 z-10 flex flex-col items-end gap-2">
           {isFeatured && (
             <div className="flex items-center gap-1 rounded-full bg-emerald-500/90 px-3 py-1 text-[10px] font-bold tracking-wider text-white shadow-lg shadow-emerald-500/20 backdrop-blur-sm">
-              FEATURED
+              {m.card_featured()}
             </div>
           )}
           {isOwned && (
             <div className="flex items-center gap-1 rounded-full bg-blue-500/90 px-3 py-1 text-[10px] font-bold tracking-wider text-white shadow-lg shadow-blue-500/20 backdrop-blur-sm">
-              OWN PROJECT
+              {m.card_own_project()}
             </div>
           )}
         </div>
@@ -97,7 +98,7 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-950 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-emerald-800 active:scale-95"
           >
-            View Details
+            {m.card_view_details()}
           </a>
         )}
         {!link && (
@@ -106,7 +107,7 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-slate-800 active:scale-95"
           >
-            Contact for details
+            {m.card_contact_for_details()}
           </a>
         )}
       </div>

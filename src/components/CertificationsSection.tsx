@@ -1,15 +1,14 @@
 import { Badge, Card } from "flowbite-react";
+import * as m from "../paraglide/messages.js";
 
 export default function CertificationsSection() {
   return (
     <section id="certifications" className="space-y-6">
       <div>
         <h2 className="text-2xl font-semibold text-slate-100">
-          Certifications & Compliance
+          {m.certs_heading()}
         </h2>
-        <p className="text-sm text-slate-300">
-          Credentialed for enterprise security leadership. Compliant solutions.
-        </p>
+        <p className="text-sm text-slate-300">{m.certs_subtitle()}</p>
       </div>
       <Card className="border-slate-800 bg-slate-900/40">
         <div className="flex flex-wrap gap-2">

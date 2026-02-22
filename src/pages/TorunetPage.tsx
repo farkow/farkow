@@ -1,11 +1,11 @@
 import ProjectDetail from "../components/ProjectDetail";
 import SEO from "../components/SEO";
+import * as m from "../paraglide/messages.js";
 
 export default function TorunetPage() {
   const torunetProject = {
-    title: "Torunet: Local-First Investigative Graph Platform",
-    description:
-      "Torunet is a powerful, local-first investigative graph platform designed to reveal hidden relationships, provenance, and patterns across complex datasets. By prioritizing privacy and native performance, it enables analysts to map intricate data connections and visualize underlying structures directly on their hardware, ensuring absolute data sovereignty and lightning-fast investigative workflows.",
+    title: m.project_torunet_title(),
+    description: m.project_torunet_description(),
     images: [],
     video: "",
     tags: [
@@ -15,8 +15,7 @@ export default function TorunetPage() {
       "Data Analysis",
       "OSINT",
     ],
-    contribution:
-      "I am the sole creator of Torunet, having architected and developed the entire platform from the ground up. I engineered the high-performance graph processing engine, designed the local-first storage architecture, and developed the interactive visualization interface to facilitate complex relationship mapping and pattern discovery.",
+    contribution: m.project_torunet_contribution(),
     techStack: [
       "Go",
       "React",
@@ -32,8 +31,8 @@ export default function TorunetPage() {
   return (
     <main className="min-h-screen bg-slate-950">
       <SEO
-        title="Torunet: Local-First Investigative Graph Platform"
-        description="Torunet is a privacy-focused, local-first graph platform for investigative data analysis and relationship mapping."
+        title={m.project_torunet_title()}
+        description={m.project_torunet_description()}
         keywords="Torunet, Graph Platform, OSINT, Data Analysis, Local-First, Investigative Tool"
       />
       <div className="pt-8">

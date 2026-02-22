@@ -1,11 +1,11 @@
 import ProjectDetail from "../components/ProjectDetail";
 import SEO from "../components/SEO";
+import * as m from "../paraglide/messages.js";
 
 export default function HarmokidPage() {
   const harmokidProject = {
-    title: "HarmoKid: AI-Powered Educational Song Generator",
-    description:
-      "HarmoKid is an innovative educational platform that leverages AI to generate original songs designed to teach children about important safety and health topics. The system automatically creates relatable lyrics, composes synchronized audio, and renders engaging videos, providing a complete multimedia learning experience that is automatically formatted and published to social media channels.",
+    title: m.project_harmokid_title(),
+    description: m.project_harmokid_description(),
     images: [],
     video: "",
     tags: [
@@ -15,8 +15,7 @@ export default function HarmokidPage() {
       "Automation",
       "Video Synthesis",
     ],
-    contribution:
-      "I built HarmoKid from the ground up, architecting the entire multimodal AI pipeline. I engineered the integration between Large Language Models for lyrics, text-to-speech and music generation models for audio, and dynamic video rendering systems, while also developing the automated social media publishing workflow to deliver educational content at scale.",
+    contribution: m.project_harmokid_contribution(),
     techStack: [
       "Python",
       "PyTorch",
@@ -33,8 +32,8 @@ export default function HarmokidPage() {
   return (
     <main className="min-h-screen bg-slate-950">
       <SEO
-        title="HarmoKid: AI-Powered Educational Song Generator"
-        description="HarmoKid uses AI to generate original educational songs and videos for children on safety and health topics."
+        title={m.project_harmokid_title()}
+        description={m.project_harmokid_description()}
         keywords="HarmoKid, EdTech, AI Music, Educational Content, Video Synthesis"
       />
       <div className="pt-8">

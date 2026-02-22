@@ -1,40 +1,36 @@
 import ProjectCard from "./ProjectCard";
-
-const TOP3 = [
-  {
-    title: "Itopsy: AI-powered, no-code pentesting",
-    description:
-      "An AI-powered, node-based, visual penetration testing platform.",
-    images: ["/img/itopsy.png"],
-    link: "/itopsy",
-    isOwned: true,
-  },
-  {
-    title: "Digital Currency Security",
-    description:
-      "Securing digital currency transactions and exchanges in compliance with PCI DSS, including offline payments, cold storage, and hardware wallets.",
-    images: ["/img/digital-currency.png"],
-    link: "",
-  },
-  {
-    title: "Pharmaceutical Track & Trace",
-    description:
-      "It is created in order to prevent fraud in pharmaceuticals, maintain patient security and monitor pharmaceuticals at every stage. It has been implemented in this scope for the first time in the world.",
-    images: ["/img/its.png"],
-    link: "/its",
-  },
-];
+import * as m from "../paraglide/messages.js";
 
 export default function FeaturedSection() {
+  const TOP3 = [
+    {
+      title: m.project_itopsy_title(),
+      description: m.project_itopsy_description(),
+      images: ["/img/itopsy.png"],
+      link: "/itopsy",
+      isOwned: true,
+    },
+    {
+      title: m.project_digital_currency_title(),
+      description: m.project_digital_currency_description(),
+      images: ["/img/digital-currency.png"],
+      link: "",
+    },
+    {
+      title: m.project_its_title(),
+      description: m.project_pharma_featured_description(),
+      images: ["/img/its.png"],
+      link: "/its",
+    },
+  ];
+
   return (
     <section id="featured" className="space-y-6">
       <div>
         <h2 className="text-2xl font-semibold text-slate-100">
-          Top 3 Featured Projects
+          {m.featured_heading()}
         </h2>
-        <p className="text-sm text-slate-300">
-          Here are the top 3 featured projects I've worked on.
-        </p>
+        <p className="text-sm text-slate-300">{m.featured_subtitle()}</p>
       </div>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

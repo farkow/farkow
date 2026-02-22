@@ -1,0 +1,159 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+
+  "nav_projects": "Projeler",
+  "nav_entry": "Giriş",
+  "nav_experience": "Deneyim",
+  "nav_skills": "Yetenekler",
+  "nav_certifications": "Sertifikalar",
+  "nav_contact": "İletişim",
+
+  "entry_subtitle": "Kıdemli Yazılım ve Güvenlik Lideri",
+  "entry_name": "MURAT AYDIN",
+  "entry_tagline": "Tasarımdan Güvenli, Bulut-Yerel, Yapay Zeka Destekli",
+  "entry_years": "17 Yıllık Yazılım ve Siber Güvenlik Deneyimi",
+  "entry_bio1": "Bulut ortamlarında güvenli, ölçeklenebilir yazılım sistemleri tasarlayan 17 yıllık deneyime sahip tecrübeli bir teknoloji lideriyim. Çalışmalarım uygulama güvenliği, bulut-yerel mimari ve uygulamalı yapay zekanın güçlü kesişim noktasında yer alıyor — yalnızca teorik kavramlar olarak değil, pratik, üretim düzeyinde çözümler olarak.",
+  "entry_bio2": "Yapay zekayı modern uygulamalara entegre etmenin ötesinde, tamamen çevrimdışı yapay zeka altyapısı tasarlamak ve dağıtmak konusunda uzmanlaşıyorum: veri egemenliğini, mevzuata uyumu ve operasyonel dayanıklılığı ön planda tutan özel, hava boşluklu veya düşük bağlantılı yapay zeka sistemleri. Bu; optimize edilmiş donanım ve açık kaynak modellerin seçiminden güvenli çıkarım hatlarının yapılandırılması ve izleme çerçevelerine kadar uçtan uca kurulumları içerir — tamamı harici bulut API'lerine bağımlı olmadan.",
+  "entry_bio3": "İster bulut dağıtımlarını yeni tehditlere karşı güçlendirirken ister bağlantısız ortamlarda akıllı yetenekler sağlarken, yalnızca yenilikçi değil aynı zamanda güvenilir, bakımı kolay ve uzun ömürlü sistemler inşa ediyorum.",
+  "entry_cta_conversation": "İletişime geç",
+  "entry_cta_skills": "Yetenekleri görüntüle",
+  "entry_tag_appsec": "Uygulama Güvenliği",
+  "entry_tag_dev": "Yazılım Geliştirme",
+  "entry_tag_ai": "Yerinde Yapay Zeka Çözümleri",
+  "entry_tag_cloud": "Bulut-Yerel",
+  "entry_tag_enterprise": "Kurumsal Çözümler",
+
+  "experience_heading": "Deneyim",
+  "experience_subtitle": "Çalıştığım ünlü şirketler. Deneyim sahibi olduğum tanınmış müşteriler.",
+  "experience_work": "İş deneyimi",
+  "experience_customer": "Müşteri deneyimi",
+
+  "skills_heading": "Yetenekler",
+  "skills_subtitle": "Deneyim sahibi olduğum programlama dilleri ve saldırı güvenliği araçları.",
+  "skills_languages": "Diller",
+  "skills_offensive": "Saldırı Güvenliği",
+  "skills_technologies": "Teknolojiler",
+  "skills_databases": "Veritabanları",
+
+  "certs_heading": "Sertifikalar ve Uyumluluk",
+  "certs_subtitle": "Kurumsal güvenlik liderliği için akredite. Uyumlu çözümler.",
+
+  "contact_heading": "İletişim ve Uygunluk",
+  "contact_subtitle": "Yazılım, güvenlik ve yapay zeka ihtiyaçlarınızı tartışmak veya herhangi bir sorunuz için benimle iletişime geçin.",
+  "contact_title": "İletişim",
+  "contact_reach": "Bana qyphruz@proton.me adresinden ulaşabilirsiniz.",
+  "contact_email": "E-posta",
+  "contact_back_to_top": "Başa dön",
+  "contact_availability": "Uygunluk",
+  "contact_status": "Durum:",
+  "contact_available": "Müsait",
+  "contact_location": "Konum: Uzaktan / Hibrit (Almanya ve Türkiye)",
+  "contact_timezone": "Saat dilimi: CET / GMT uyumlu",
+  "contact_response": "Yanıt süresi: 24-48 saat",
+
+  "featured_heading": "En İyi 3 Öne Çıkan Proje",
+  "featured_subtitle": "Üzerinde çalıştığım en iyi 3 öne çıkan proje.",
+
+  "card_featured": "ÖNE ÇIKAN",
+  "card_own_project": "KENDİ PROJEMİ",
+  "card_view_details": "Detayları Görüntüle",
+  "card_contact_for_details": "Detaylar için iletişime geçin",
+  "detail_my_contribution": "Katkım",
+  "detail_tech_stack": "Teknoloji Yığını",
+  "detail_visit_project": "Projeyi Ziyaret Et",
+
+  "projects_heading": "Katkılarım ve Kendi Projelerim",
+  "projects_subtitle": "Karmaşık veri platformlarından yapay zeka entegreli geliştirme araçlarına kadar uzanan öne çıkan katkılarım ve kendi projelerimden bir seçki.",
+  "projects_filter_owned": "Kendi projelerimi göster",
+  "projects_filter_company": "Şirket projelerini göster",
+  "projects_filter_featured": "Sadece öne çıkanları göster",
+  "projects_showing": "Gösterilen",
+  "projects_of": "/",
+  "projects_count_label": "proje",
+  "projects_no_match": "Mevcut filtrelerinizle eşleşen proje yok.",
+  "projects_reset_filters": "Tüm filtreleri sıfırla",
+
+  "project_itopsy_title": "Itopsy: Yapay zeka destekli, kodsuz sızma testi",
+  "project_itopsy_description": "Yapay zeka destekli, düğüm tabanlı, görsel bir sızma testi platformu.",
+
+  "project_its_title": "İlaç Takip Sistemi",
+  "project_its_description": "İlaç güvenliğini sağlamayı ve sahteciliği önlemeyi amaçlamaktadır. Bu yenilikçi sistem, ilaç tedarik zincirini üretimden veya ithalattan son kullanıcıya kadar takip eder.",
+  "project_its_detail_title": "İlaç Takip ve İzleme Sistemi",
+  "project_its_detail_description": "İlaçlarda sahteciliği önlemek, hasta güvenliğini korumak ve ilaçları her aşamada izlemek amacıyla oluşturulmuştur. Bu kapsamda dünyada ilk kez uygulanmıştır.",
+  "project_its_contribution": "Tiga Sağlık Teknolojileri'nin taşeronu olarak bu öncü ilaç takip platformunun yüksek güvenlikli yönetim arka ucunu tasarladım. Çalışmam, platformun yönetim işlevleri için sağlam bir veritabanı mimarisi oluşturma ve kapsamlı siber güvenlik protokolleri uygulama üzerine odaklandı; ilaç güvenliği verilerinin mutlak bütünlüğünü sağlayarak küresel tedarik zincirinde sahte faaliyetleri önledi.",
+
+  "project_digital_currency_title": "Dijital Para Birimi Güvenliği",
+  "project_digital_currency_description": "PCI DSS uyumlu dijital para birimi işlemlerinin ve borsaların güvenliğini sağlama; çevrimdışı ödemeler, soğuk depolama ve donanım cüzdanları dahil.",
+
+  "project_pharma_featured_description": "İlaçlarda sahteciliği önlemek, hasta güvenliğini korumak ve ilaçları her aşamada izlemek amacıyla oluşturulmuştur. Bu kapsamda dünyada ilk kez uygulanmıştır.",
+
+  "project_chemondis_title": "Kimyasal B2B Pazar Yeri",
+  "project_chemondis_description": "Kimyasal tedarikçiler ve alıcılar için bir B2B pazar yeri; envanter yönetimi ve sipariş işleme dahil.",
+  "project_chemondis_detail_title": "Chemondis: Kimyasal B2B Pazar Yeri",
+  "project_chemondis_detail_description": "CheMondis, endüstriyel kimyasalların profesyonel ticareti için özel olarak tasarlanmış, önde gelen küresel bir B2B çevrimiçi pazar yeridir. LANXESS'in bir girişimi olarak kurulan platform, doğrulanmış tedarikçileri binlerce alıcı şirketle buluşturarak karmaşık kimyasal tedarik zincirini dijitalleştirmekte ve 50.000'den fazla ürünün tedariki için şeffaf, güvenli bir ortam sunmaktadır.",
+  "project_chemondis_contribution": "CheMondis platformunun erken geliştirme aşamalarından başarılı müşteri teslimatına kadar Teknik Lider olarak görev yaptım. Bu rolde, çeşitli uluslararası uzman ekibine öncülük ettim, sınır ötesi işbirliğini koordine ettim ve proje kilometre taşlarının karşılanmasını sağlamak için farklı yetkinlikleri yönettim. Liderlik sorumluluklarımın ötesinde, küresel bir B2B pazar yerinin taleplerini karşılamak için güvenli, ölçeklenebilir sistemler tasarlamaya ve veritabanı performansını optimize etmeye odaklandığım çekirdek arka uç programlamasında derinlemesine yer aldım.",
+
+  "project_secure_coding_title": "Kurumsal Güvenli Kodlama",
+  "project_secure_coding_description": "NIST SSDF ve OWASP Güvenli Kodlama Uygulamalarına uyumlu kurumsal güvenli kodlama politikası; kod tarayıcıları ve yapay zeka ile kod inceleme süreci, güvenlik eğitim programı ve güvenlik test süreci dahil.",
+
+  "project_hardened_linux_title": "Kurumsal Sıkılaştırılmış Linux Çalışma Alanı",
+  "project_hardened_linux_description": "Güvenli kodlama ve geliştirme için kurumsal sıkılaştırılmış Linux çalışma alanı; genel paketlere erişimin sınırlandırılması, rol tabanlı uzaktan erişim kontrolü ve özel güvenlik yapılandırmaları dahil.",
+
+  "project_insurance_title": "Sigorta Koçu Otomasyonu",
+  "project_insurance_description": "Sigorta acenteleri ve brokerler için bir sigorta koçu asistanı; bilgi tabanı, kişiselleştirilmiş koçluk programı ve otomasyon dahil.",
+
+  "project_kyknet_title": "KYK.NET",
+  "project_kyknet_description": "Bu uygulama aracılığıyla yurt başvuruları, burs başvuruları ve yurt kayıt ücreti ödemeleri gibi birçok işlemi elektronik olarak gerçekleştirebilirsiniz.",
+
+  "project_aircraft_title": "3D Uçak Editörü ve Tedarik",
+  "project_aircraft_description": "Tedarik zinciri yönetimi ve üretim planlaması dahil ticari uçak tasarım ve tedariki.",
+
+  "project_auto_editor_title": "3D WebGL Oto Editörü",
+  "project_auto_editor_description": "Fiyatlandırma ve envanter yönetimi ile iç ve dış mekan tasarımı için bir 3D WebGL otomotiv editörü.",
+
+  "project_lit_title": "Karma Gerçeklik TV Şovu",
+  "project_lit_description": "Lost In Time, 25 Mart 2017'de TV Norge'de yayınlanan bir Norveç yarışma programıdır. Etkileşimli karma gerçeklik teknolojisini sanal üretimle birleştirerek yarışmacıları zaman ve mekan boyunca dağılmış farklı manzaralara taşır ve tamamen Epic'in UNREAL Engine 4 oyun motoruna dayanmaktadır.",
+  "project_lit_detail_title": "Lost in Time: Karma Gerçeklik TV Şovu",
+  "project_lit_detail_description": "Lost In Time, 25 Mart 2017'de TV Norge'de yayınlanan bir Norveç yarışma programıdır. Etkileşimli karma gerçeklik teknolojisini sanal üretimle birleştirerek yarışmacıları zaman ve mekan boyunca dağılmış farklı manzaralara taşır ve tamamen Epic'in UNREAL Engine 4 oyun motoruna dayanmaktadır.",
+  "project_lit_contribution": "Bu yenilikçi karma gerçeklik prodüksiyonu için arka uç mimarisinden ve güvenli kodlama standartlarının uygulanmasından sorumlu oldum. Çalışmam ağ güvenliği yönetimi, titiz güvenlik testleri ve SQL veritabanı katmanının önemli performans optimizasyonunu kapsadı. Yüksek talep gören gerçek zamanlı sanal üretim ortamı için sorunsuz çalışma sağlayarak kritik performans darboğazlarını başarıyla belirleyip çözdüm.",
+
+  "project_carcuva_title": "Carcuva: Yapay Zeka Destekli İnteraktif Canlı Resim Çerçevesi",
+  "project_carcuva_description": "Carcuva, statik fotoğrafları tablet tabanlı akıllı çerçeveler için tasarlanmış canlı, duygusal portrelere dönüştürür. Gelişmiş yapay zeka hareket modellemesi kullanarak uygulama, tek görüntüleri çeşitli gerçekçi duygularla canlandırır. Çerçevenin kullanıcılar yaklaştığında 'uyanmasına' ve onları karşılamasına olanak tanıyan yerleşik varlık algılama özelliği, daha etkileşimli ve duygusal olarak yankı uyandıran bir akıllı ev deneyimi oluşturur.",
+  "project_carcuva_contribution": "Carcuva'yı bağımsız olarak tasarlayıp geliştirdim, görüntüden videoya animasyon için uçtan uca sistemi mimarladım. Bilgisayarlı görme kullanarak varlık algılama mantığını geliştirdim ve statik görüntülerden akıcı duygusal ifadeler üreten yapay zeka hattını tasarladım; tablet donanımında yüksek performanslı çalışma sağladım.",
+
+  "project_sonaire_title": "Sonaire: Yapay Zeka Destekli Sosyal Medya Quiz Otomasyonu",
+  "project_sonaire_description": "Sonaire, yapay zeka kullanarak çok dilli sosyal medya quizleri üreten otomatik bir içerik oluşturma platformudur. Çeşitli konularda ve zorluk seviyelerinde yüksek kaliteli video quizleri dinamik olarak üretir, gelişmiş video işleme kullanarak içeriği doğrudan sosyal medya kanallarına formatlar ve yayınlar, dijital içerik üreticileri için etkileşim sürecini kolaylaştırır.",
+  "project_sonaire_contribution": "Sonaire'i sıfırdan inşa ettim ve tüm otomasyon hattını geliştirdim. Çok dilli soru üretimi için yapay zeka mantığını tasarladım, dinamik video oluşturma için FFMPEG'i entegre ettim ve birden fazla sosyal medya platformuna sorunsuz içerik dağıtımı için otomatik yayın sistemini geliştirdim.",
+
+  "project_harmokid_title": "HarmoKid: Yapay Zeka Destekli Eğitici Şarkı Üreticisi",
+  "project_harmokid_description": "HarmoKid, çocuklara önemli güvenlik ve sağlık konularını öğretmek için tasarlanmış orijinal şarkılar üretmek amacıyla yapay zekadan yararlanan yenilikçi bir eğitim platformudur. Sistem otomatik olarak ilişkilendirilebilir şarkı sözleri oluşturur, senkronize ses besteler ve ilgi çekici videolar render eder; otomatik olarak biçimlendirilen ve sosyal medya kanallarına yayınlanan eksiksiz bir multimedya öğrenme deneyimi sunar.",
+  "project_harmokid_contribution": "HarmoKid'i sıfırdan inşa ettim ve tüm çok modlu yapay zeka hattını mimarladım. Şarkı sözleri için Büyük Dil Modelleri, ses için metin-konuşma ve müzik üretim modelleri ile dinamik video oluşturma sistemleri arasındaki entegrasyonu tasarladım; aynı zamanda eğitim içeriğini ölçekte sunmak için otomatik sosyal medya yayın iş akışını geliştirdim.",
+
+  "project_nar_title": "Nar: Grafik Tabanlı E-Devlet Aile Soy Ağacı",
+  "project_nar_description": "Nar, Türkiye'nin E-Devlet platformundaki verileri karmaşık, çok nesilli aile ağaçlarına dönüştüren özel bir soy ağacı aracıdır. Grafik veritabanı teknolojisini kullanarak kullanıcıların birleşik aile soy çizgilerini görselleştirmesine ve gezinmesine olanak tanır; geleneksel kayıtlarla izlenmesi zor olan karmaşık atasal bağlantıları ve tarihsel kalıpları ortaya çıkarır.",
+  "project_nar_contribution": "Yakın arkadaşım Ilgın Yıldız ile sıfırdan birlikte oluşturduk; grafik veri modelini mimarlamaya ve veri ayrıştırma motorunu geliştirmeye odaklandım. Birlikte karmaşık ilişki düğümlerini yönetme mantığını tasarladık ve büyük ölçekli aile ağlarının sorunsuz keşfi için etkileşimli ön yüzü tasarladık.",
+
+  "project_netcabal_title": "Netcabal: İnteraktif Komplo Teorisi Editörü",
+  "project_netcabal_description": "Netcabal, karmaşık komplo teorilerini haritalamak ve keşfetmek için tasarlanmış dinamik, web tabanlı bir görsel editördür. Sezgisel düğüm tabanlı arayüzü kullanarak kullanıcıların farklı olayları, bireyleri ve kuruluşları bağlamasına ve etkileşimli bir ortamda etki ve nedensellik ağlarını görselleştirmesine olanak tanır.",
+  "project_netcabal_contribution": "Netcabal'ı tek geliştirici olarak sıfırdan inşa ettim, tüm görsel motoru ve düğüm mantığını mimarladım. ReactFlow kullanarak etkileşimli grafik sistemini geliştirdim; karmaşık ilişkisel verilerin haritalanması için yüksek düzeyde duyarlı ve sezgisel bir kullanıcı deneyimi sağladım.",
+
+  "project_torunet_title": "Torunet: Yerel Öncelikli Soruşturma Grafik Platformu",
+  "project_torunet_description": "Torunet, karmaşık veri kümeleri arasındaki gizli ilişkileri, kaynakları ve kalıpları ortaya çıkarmak için tasarlanmış güçlü, yerel öncelikli bir soruşturma grafik platformudur. Gizliliğe ve yerel performansa öncelik vererek analistlerin karmaşık veri bağlantılarını haritalandırmasına ve altta yatan yapıları doğrudan kendi donanımları üzerinde görselleştirmesine olanak tanır; mutlak veri egemenliği ve son derece hızlı soruşturma iş akışları sağlar.",
+  "project_torunet_contribution": "Torunet'in tek yaratıcısıyım; tüm platformu sıfırdan mimarladım ve geliştirdim. Yüksek performanslı grafik işleme motorunu tasarladım, yerel öncelikli depolama mimarisini geliştirdim ve karmaşık ilişki haritalama ve kalıp keşfini kolaylaştırmak için etkileşimli görselleştirme arayüzünü geliştirdim.",
+
+  "project_duvardelen_title": "Duvardelen: WiFi Tabanlı Düşme Algılama ve Poz Tahmini",
+  "project_duvardelen_description": "Duvardelen, duvarlar arasından yoğun insan poz tahmini için WiFi sinyallerini kullanan üretime hazır bir sağlık izleme sistemidir. InvisPose'un özel bir uygulamasına dayanan sistem, gerçek zamanlı tam vücut takibi gerçekleştirmek için standart mesh yönlendiricilerden Kanal Durum Bilgisi (CSI) kullanır. Sistem özellikle yaşlı bakımı için optimize edilmiş olup geleneksel kamera tabanlı izlemenin gizlilik kaygıları olmadan düşmeleri ve anormal aktiviteleri algılar.",
+  "project_duvardelen_contribution": "Duvardelen'i wifi-denponse araştırma deposunu temel alarak bağımsız olarak geliştirdim. Gerçek zamanlı sinyal işleme bağlantısı, düşme algılama için insan aktivite tanıma modelleri ve uyarı sistemi dahil olmak üzere uçtan uca üretim hattını tasarladım; bir araştırma konseptini işlevsel bir sağlık uygulamasına dönüştürdüm.",
+
+  "project_prograi_title": "Prograi: Yerinde Kurumsal Yapay Zeka Kod Asistanı",
+  "project_prograi_description": "Prograi, kurumsal gereksinimler için özel olarak tasarlanmış yüksek güvenlikli, otonom yapay zeka destekli bir kod asistanıdır. Mutlak gizlilik için inşa edilmiş olup tamamen yerinde çalışır; tüm istekleri ve model hesaplamalarını sıfır internet bağımlılığıyla yerel olarak yönetir. Bu, özel kodun ve kurumsal bilginin güvenli kurumsal ortamdan asla çıkmamasını sağlar.",
+  "project_prograi_contribution": "Prograi'nin tek yaratıcısıyım; tüm sistemi sıfırdan mimarladım ve geliştirdim. Tam yığın altyapıyı tasarladım, hava boşluklu ortamlar için yerel Büyük Dil Modellerini entegre ettim ve harici veri maruziyeti olmadan yüksek performanslı kod yardımı sağlamak için güvenli işleme hattını tasarladım.",
+
+  "project_magdan_title": "Magdan: Geliştiriciler İçin Yerel GPU Bitcoin Madencisi",
+  "project_magdan_description": "Magdan, geliştirme ve test amaçlı tasarlanmış özel bir yerel Bitcoin madencilik uygulamasıdır. Geliştiricilerin madencilik işlemlerini simüle etmek, blok zinciri entegrasyonlarını test etmek ve büyük ölçekli madencilik havuzlarının karmaşıklığı olmadan kontrollü bir ortamda İş İspatı (PoW) mekaniklerini anlamak için ev GPU'larını kullanmalarını sağlar.",
+  "project_magdan_contribution": "Magdan'ı tek geliştirici olarak sıfırdan inşa ettim. GPU hızlandırmalı hash motorunu tasarladım, CUDA/OpenCL için optimize edilmiş SHA-256 algoritmasını uyguladım ve hash oranlarını ve blok keşif simülasyonlarını izlemek için yönetim arayüzünü geliştirdim.",
+
+  "project_moveit_title": "MoveIT Saldırısı: Teknik Analiz",
+  "project_moveit_description": "CVE-2023-34362, Progress MOVEit Transfer web uygulamasında kritik bir sıfır gün SQL enjeksiyon güvenlik açığıdır. Bu açık, kimliği doğrulanmamış uzak saldırganların MOVEit Transfer veritabanına tam erişim kazanmasına ve potansiyel olarak sunucuda rastgele kod çalıştırmasına olanak tanıdı. Cl0p fidye yazılımı grubu tarafından istismar edilen bu güvenlik açığı, çok sayıda kuruluşta önemli veri ihlallerine yol açarak küresel bir etki yarattı.",
+  "project_moveit_contribution": "MOVEit Transfer saldırısının kapsamlı bir teknik analizini gerçekleştirdim; özellikle CVE-2023-34362 istismar zincirini araştırdım. Çalışmam, SQL enjeksiyon güvenlik açığını çözümlemeyi, API erişim token'ları aracılığıyla ayrıcalık yükseltme mekanizmasını analiz etmeyi ve ardından 'human2.aspx' web kabuğunun dağıtımını belgelemeyi içerdi. Bu araştırma, saldırının yaşam döngüsüne — ilk kimliği doğrulanmamış erişimden tam sunucu ele geçirme ve veri sızdırmaya kadar — kritik içgörüler sağladı."
+}

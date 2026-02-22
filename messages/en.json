@@ -1,0 +1,159 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+
+  "nav_projects": "Projects",
+  "nav_entry": "Entry",
+  "nav_experience": "Experience",
+  "nav_skills": "Skills",
+  "nav_certifications": "Certifications",
+  "nav_contact": "Contact",
+
+  "entry_subtitle": "Senior Software & Security Leader",
+  "entry_name": "MURAT AYDIN",
+  "entry_tagline": "Secure by Design, Cloud-Native, AI-Enhanced",
+  "entry_years": "17 Years of Software & Cyber Security Experience",
+  "entry_bio1": "I'm a seasoned technology leader with 17 years of experience engineering secure, scalable software systems across cloud environments. My work sits at the powerful intersection of application security, cloud-native architecture, and applied artificial intelligence—not just as theoretical concepts, but as practical, production-grade solutions.",
+  "entry_bio2": "Beyond integrating AI into modern applications, I specialize in designing and deploying fully offline AI infrastructure: private, air-gapped, or low-connectivity AI systems that prioritize data sovereignty, regulatory compliance, and operational resilience. This includes end-to-end setups—from selecting optimized hardware and open-source models to configuring secure inference pipelines and monitoring frameworks—all without reliance on external cloud APIs.",
+  "entry_bio3": "Whether hardening cloud deployments against emerging threats or enabling intelligent capabilities in disconnected environments, I build systems that are not only innovative but also trustworthy, maintainable, and built to last.",
+  "entry_cta_conversation": "Start a conversation",
+  "entry_cta_skills": "View skills",
+  "entry_tag_appsec": "Application Security",
+  "entry_tag_dev": "Software Development",
+  "entry_tag_ai": "On-Premise AI Solutions",
+  "entry_tag_cloud": "Cloud-Native",
+  "entry_tag_enterprise": "Enterprise Solutions",
+
+  "experience_heading": "Experience",
+  "experience_subtitle": "Famous companies I have worked for. Well-known customers I have experience with.",
+  "experience_work": "Work experience",
+  "experience_customer": "Customer experience",
+
+  "skills_heading": "Skills",
+  "skills_subtitle": "Programming languages and offensive security tools I have experience with.",
+  "skills_languages": "Languages",
+  "skills_offensive": "Offensive Security",
+  "skills_technologies": "Technologies",
+  "skills_databases": "Databases",
+
+  "certs_heading": "Certifications & Compliance",
+  "certs_subtitle": "Credentialed for enterprise security leadership. Compliant solutions.",
+
+  "contact_heading": "Contact & Availability",
+  "contact_subtitle": "Get in touch with me for any questions or to discuss your software, security and AI needs.",
+  "contact_title": "Contact",
+  "contact_reach": "You can reach me at qyphruz@proton.me.",
+  "contact_email": "Email",
+  "contact_back_to_top": "Back to top",
+  "contact_availability": "Availability",
+  "contact_status": "Status:",
+  "contact_available": "Available",
+  "contact_location": "Location: Remote / Hybrid (Germany & Türkiye)",
+  "contact_timezone": "Timezone: CET / GMT friendly",
+  "contact_response": "Response time: 24-48 hours",
+
+  "featured_heading": "Top 3 Featured Projects",
+  "featured_subtitle": "Here are the top 3 featured projects I've worked on.",
+
+  "card_featured": "FEATURED",
+  "card_own_project": "OWN PROJECT",
+  "card_view_details": "View Details",
+  "card_contact_for_details": "Contact for details",
+  "detail_my_contribution": "My Contribution",
+  "detail_tech_stack": "Tech Stack",
+  "detail_visit_project": "Visit Project",
+
+  "projects_heading": "Contributions and My Own Projects",
+  "projects_subtitle": "A selection of my featured contributions and own projects, ranging from complex data platforms to AI-integrated development tools.",
+  "projects_filter_owned": "Show my own projects",
+  "projects_filter_company": "Show company projects",
+  "projects_filter_featured": "Show only featured",
+  "projects_showing": "Showing",
+  "projects_of": "of",
+  "projects_count_label": "projects",
+  "projects_no_match": "No projects match your current filters.",
+  "projects_reset_filters": "Reset all filters",
+
+  "project_itopsy_title": "Itopsy: AI-powered, no-code pentesting",
+  "project_itopsy_description": "An AI-powered, node-based, visual penetration testing platform.",
+
+  "project_its_title": "Pharmaceutical Track & Trace",
+  "project_its_description": "It aims to provide drug safety and prevent counterfeiting. This innovative system tracks and traces the pharmaceutical supply chain from the production or importation to the end user.",
+  "project_its_detail_title": "Pharmaceutical Track & Trace System",
+  "project_its_detail_description": "It is created in order to prevent fraud in pharmaceuticals, maintain patient security and monitor pharmaceuticals at every stage. It has been implemented in this scope for the first time in the world.",
+  "project_its_contribution": "I engineered the high-security administrative backend for this pioneering pharmaceutical tracking platform as a subcontractor of Tiga Healthcare Technologies. My work focused on architecting a robust database and implementing comprehensive cybersecurity protocols for the platform's administrative functions, ensuring the absolute integrity of drug safety data and preventing fraudulent activities across the global supply chain.",
+
+  "project_digital_currency_title": "Digital Currency Security",
+  "project_digital_currency_description": "Securing digital currency transactions and exchanges in compliance with PCI DSS, including offline payments, cold storage, and hardware wallets.",
+
+  "project_pharma_featured_description": "It is created in order to prevent fraud in pharmaceuticals, maintain patient security and monitor pharmaceuticals at every stage. It has been implemented in this scope for the first time in the world.",
+
+  "project_chemondis_title": "Chemical B2B Marketplace",
+  "project_chemondis_description": "A chemical B2B marketplace for chemical suppliers and buyers, including inventory management and order processing.",
+  "project_chemondis_detail_title": "Chemondis: Chemical B2B Marketplace",
+  "project_chemondis_detail_description": "CheMondis is a leading global B2B online marketplace specifically designed for the professional trade of industrial chemicals. Founded as a venture of LANXESS, it connects verified suppliers with thousands of buying companies, digitizing the complex chemical supply chain and offering a transparent, secure environment for sourcing over 50,000 products.",
+  "project_chemondis_contribution": "I served as the Technical Lead for the CheMondis platform from its early development stages through to successful customer delivery. In this role, I spearheaded a diverse, international team of specialists, coordinating cross-border collaboration and managing varied skill sets to ensure project milestones were met. Beyond my leadership responsibilities, I was deeply involved in the core backend programming, where I focused on architecting secure, scalable systems and optimizing database performance to handle the demands of a global B2B marketplace.",
+
+  "project_secure_coding_title": "Secure Coding for Enterprises",
+  "project_secure_coding_description": "Enterprise secure coding policy which is compliant with NIST SSDF and OWASP Secure Coding Practices, including a code review process with code scanners and AI, a security training program, and a security testing process.",
+
+  "project_hardened_linux_title": "Hardened Linux Workspace for Enterprises",
+  "project_hardened_linux_description": "Enterprise hardened Linux workspace for secure coding and development, including limiting access to public packages, role-based remote access control, and custom security configurations.",
+
+  "project_insurance_title": "Insurance Coach Automation",
+  "project_insurance_description": "An insurance coach assistant for insurance agents and brokers, including a knowledge base, a personalized coaching program, and automation.",
+
+  "project_kyknet_title": "KYK.NET",
+  "project_kyknet_description": "Through this application, you can perform many transactions electronically, such as dormitory applications, scholarship applications, and dormitory registration fee payments.",
+
+  "project_aircraft_title": "Aircraft 3D Editor w/ Procurement",
+  "project_aircraft_description": "Designing and procuring commercial aircraft, including supply chain management and production planning.",
+
+  "project_auto_editor_title": "3D WebGL Auto Editor",
+  "project_auto_editor_description": "A 3D WebGL automotive editor for interior and external design with pricing and inventory management.",
+
+  "project_lit_title": "Mixed Reality TV Show",
+  "project_lit_description": "Lost In Time is a Norwegian game show that aired on TV Norge March 25th 2017. It combines interactive mixed reality technology with virtual production to transport contestants to different landscapes scattered across time and space and is all based on Epic's UNREAL Engine 4 game Engine.",
+  "project_lit_detail_title": "Lost in Time: Mixed Reality TV Show",
+  "project_lit_detail_description": "Lost In Time is a Norwegian game show that aired on TV Norge March 25th 2017. It combines interactive mixed reality technology with virtual production to transport contestants to different landscapes scattered across time and space and is all based on Epic's UNREAL Engine 4 game Engine.",
+  "project_lit_contribution": "I was responsible for the backend architecture and implementing secure coding standards for this innovative mixed reality production. My work encompassed network security management, rigorous security testing, and significant performance optimization of the SQL database layer. I successfully identified and resolved critical performance bottlenecks, ensuring seamless operation for the high-demand real-time virtual production environment.",
+
+  "project_carcuva_title": "Carcuva: AI-Driven Interactive Live Picture Frame",
+  "project_carcuva_description": "Carcuva transforms static photos into living, emotional portraits designed for tablet-based smart frames. Using advanced AI motion modeling, the app animates single images with a range of realistic emotions. It features built-in presence detection that allows the frame to 'wake up' and greet users as they approach, creating a more interactive and emotionally resonant smart home experience.",
+  "project_carcuva_contribution": "I independently conceived and built Carcuva, architecting the end-to-end system for image-to-video animation. I developed the presence-detection logic using computer vision and engineered the AI pipeline that generates fluid emotional expressions from static images, ensuring high-performance execution on tablet hardware.",
+
+  "project_sonaire_title": "Sonaire: AI-Driven Social Media Quiz Automation",
+  "project_sonaire_description": "Sonaire is an automated content creation platform that generates multilingual social media quizzes using AI. It dynamically produces high-quality video quizzes across various subjects and difficulty levels, utilizing advanced video processing to format and publish content directly to social media channels, streamlining the engagement process for digital creators.",
+  "project_sonaire_contribution": "I built Sonaire from scratch, developing the entire automation pipeline. I engineered the AI logic for multilingual question generation, integrated FFMPEG for dynamic video rendering, and developed the automated publishing system to seamlessly deliver content across multiple social media platforms.",
+
+  "project_harmokid_title": "HarmoKid: AI-Powered Educational Song Generator",
+  "project_harmokid_description": "HarmoKid is an innovative educational platform that leverages AI to generate original songs designed to teach children about important safety and health topics. The system automatically creates relatable lyrics, composes synchronized audio, and renders engaging videos, providing a complete multimedia learning experience that is automatically formatted and published to social media channels.",
+  "project_harmokid_contribution": "I built HarmoKid from the ground up, architecting the entire multimodal AI pipeline. I engineered the integration between Large Language Models for lyrics, text-to-speech and music generation models for audio, and dynamic video rendering systems, while also developing the automated social media publishing workflow to deliver educational content at scale.",
+
+  "project_nar_title": "Nar: Graph-Based E-Devlet Family Genealogy",
+  "project_nar_description": "Nar is a specialized genealogical tool that transforms data from Türkiye's E-Devlet platform into complex, multi-generational family trees. By utilizing graph database technology, it enables users to visualize and navigate combined family lineages, uncovering intricate ancestral connections and historical patterns that are difficult to trace through traditional records.",
+  "project_nar_contribution": "Co-created from scratch with my close friend Ilgin Yildiz, I focused on architecting the graph data model and developing the data parsing engine. Together, we engineered the logic for handling complex relationship nodes and designed the interactive frontend to provide a seamless exploration of large-scale family networks.",
+
+  "project_netcabal_title": "Netcabal: Interactive Conspiracy Theory Editor",
+  "project_netcabal_description": "Netcabal is a dynamic, web-based visual editor designed for mapping and exploring complex conspiracy theories. Using an intuitive node-based interface, it allows users to connect disparate events, individuals, and organizations to visualize intricate webs of influence and causation in a highly interactive environment.",
+  "project_netcabal_contribution": "I built Netcabal from scratch as the sole developer, architecting the entire visual engine and node logic. I developed the interactive graphing system using ReactFlow, ensuring a highly responsive and intuitive user experience for mapping complex relational data.",
+
+  "project_torunet_title": "Torunet: Local-First Investigative Graph Platform",
+  "project_torunet_description": "Torunet is a powerful, local-first investigative graph platform designed to reveal hidden relationships, provenance, and patterns across complex datasets. By prioritizing privacy and native performance, it enables analysts to map intricate data connections and visualize underlying structures directly on their hardware, ensuring absolute data sovereignty and lightning-fast investigative workflows.",
+  "project_torunet_contribution": "I am the sole creator of Torunet, having architected and developed the entire platform from the ground up. I engineered the high-performance graph processing engine, designed the local-first storage architecture, and developed the interactive visualization interface to facilitate complex relationship mapping and pattern discovery.",
+
+  "project_duvardelen_title": "Duvardelen: WiFi-Based Fall Detection & Pose Estimation",
+  "project_duvardelen_description": "Duvardelen is a production-ready healthcare monitoring system that utilizes WiFi signals for dense human pose estimation through walls. Based on a custom implementation of InvisPose, it leverages Channel State Information (CSI) from standard mesh routers to perform real-time full-body tracking. The system is specifically optimized for elderly care, detecting falls and abnormal activities without the privacy concerns of traditional camera-based monitoring.",
+  "project_duvardelen_contribution": "I independently developed Duvardelen by building upon the wifi-denponse research repository. I engineered the end-to-end production pipeline, including the real-time signal processing link, human activity recognition models for fall detection, and the alerting system, turning a research concept into a functional healthcare application.",
+
+  "project_prograi_title": "Prograi: On-Premise Enterprise AI Code Assistant",
+  "project_prograi_description": "Prograi is a high-security, autonomous AI-powered code assistant tailored for enterprise requirements. Built for absolute privacy, it operates entirely on-premise, handling all requests and model computations locally with zero internet dependency. This ensures that proprietary code and institutional knowledge never leave the secure corporate environment.",
+  "project_prograi_contribution": "I am the sole creator of Prograi, having architected and developed the entire system from scratch. I engineered the full-stack infrastructure, integrated local Large Language Models for air-gapped environments, and designed the secure processing pipeline to ensure high-performance code assistance without external data exposure.",
+
+  "project_magdan_title": "Magdan: Local GPU Bitcoin Miner for Developers",
+  "project_magdan_description": "Magdan is a specialized local Bitcoin mining application designed for development and testing purposes. It enables developers to leverage their home GPU to simulate mining operations, test blockchain integrations, and understand the mechanics of Proof of Work (PoW) in a controlled environment without the complexity of large-scale mining pools.",
+  "project_magdan_contribution": "I built Magdan from scratch as the sole developer. I engineered the GPU-accelerated hashing engine, implemented the SHA-256 algorithm optimized for CUDA/OpenCL, and developed the management interface for monitoring hash rates and block discovery simulations.",
+
+  "project_moveit_title": "MoveIT Attack: Technical Analysis",
+  "project_moveit_description": "CVE-2023-34362 is a critical zero-day SQL injection vulnerability in the Progress MOVEit Transfer web application. This flaw allowed unauthenticated, remote attackers to gain full access to the MOVEit Transfer database and potentially execute arbitrary code on the server. Exploited by the Cl0p ransomware group, this vulnerability had a global impact, leading to significant data breaches across numerous organizations.",
+  "project_moveit_contribution": "I performed a comprehensive technical analysis of the MOVEit Transfer attack, specifically investigating the CVE-2023-34362 exploit chain. My work involved deconstructing the SQL injection vulnerability, analyzing the mechanism used for privilege escalation via API access tokens, and documenting the subsequent deployment of the 'human2.aspx' web shell. This research provided critical insights into the attack's lifecycle, from initial unauthenticated access to full server compromise and data exfiltration."
+}
